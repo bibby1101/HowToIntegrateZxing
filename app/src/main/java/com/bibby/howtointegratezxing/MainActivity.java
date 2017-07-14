@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     public static int white = 0xFFFFFFFF;
     public static int black = 0xFF000000;
-    public final static int WIDTH=500;
+    public final static int WIDTH=1000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
             bitmap = Bitmap.createBitmap(w, h, Bitmap.Config.ARGB_8888);
-            bitmap.setPixels(pixels, 0, 500, 0, 0, w, h);
+            bitmap.setPixels(pixels, 0, 1000, 0, 0, w, h);
         } catch (Exception iae) {
             iae.printStackTrace();
             return null;

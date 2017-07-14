@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">HowToIntegrateZxing</string>
+    <string name="app_name">QRCode?</string>
+    <string name="info">請輸入需產生QRCODE的資訊</string>
+    <string name="generate">Generate</string>
+    <string name="format">Format</string>
+    <string name="content">Content</string>
+    <string name="scan">Scan</string>
 </resources>
